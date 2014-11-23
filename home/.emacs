@@ -12,5 +12,5 @@
  )
 
 ;; Move through grep matches easily
-(global-set-key (kbd "M-<down>") 'next-error)
-(global-set-key (kbd "M-<up>") 'previous-error)
+(global-set-key (kbd "<M-down>") 'next-error)
+(global-set-key (kbd "<M-up>") 'previous-error)
