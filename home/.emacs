@@ -10,3 +10,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; Move through grep matches easily
+(global-set-key (kbd "M-<down>") 'next-error)
+(global-set-key (kbd "M-<up>") 'previous-error)
