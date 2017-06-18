@@ -116,9 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Required for pipsi
-export PATH=~/.local/bin:$PATH
-
 # Enable Homeshick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
