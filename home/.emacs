@@ -15,6 +15,9 @@
 (global-set-key (kbd "<M-down>") 'next-error)
 (global-set-key (kbd "<M-up>") 'previous-error)
 
+;; Enable typing #
+(setq mac-right-option-modifier nil)
+
 ;; Make the calendar start on a Monday
 (setq
     calendar-week-start-day 1
