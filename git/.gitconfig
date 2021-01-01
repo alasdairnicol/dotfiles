@@ -1,0 +1,9 @@
+[user]
+	email = alasdair@thenicols.net
+	name = Alasdair Nicol
+[core]
+	editor = emacs
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
