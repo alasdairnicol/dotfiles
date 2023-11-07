@@ -2,6 +2,9 @@
 autoload -U select-word-style
 select-word-style bash
 
+# Enable autocomplete
+autoload -Uz compinit && compinit
+
 # Created by `pipx` on 2023-05-19 20:34:46
 export PATH="$PATH:/Users/anicol/.local/bin"
 
