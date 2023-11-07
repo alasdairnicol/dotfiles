@@ -1,3 +1,7 @@
+# https://stackoverflow.com/a/1438523/
+autoload -U select-word-style
+select-word-style bash
+
 # Created by `pipx` on 2023-05-19 20:34:46
 export PATH="$PATH:/Users/anicol/.local/bin"
 
