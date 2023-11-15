@@ -2,6 +2,10 @@
 autoload -U select-word-style
 select-word-style bash
 
+# Don't add commands starting with a space to history
+# https://superuser.com/a/352858
+setopt HIST_IGNORE_SPACE
+
 # Enable autocomplete
 autoload -Uz compinit && compinit
 
