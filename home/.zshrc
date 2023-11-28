@@ -20,3 +20,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 pyenv shell 3.12.0
+
+# Only add ssh keys for one hour
+alias ssh-add='ssh-add -t 1h'
